@@ -14,10 +14,12 @@ body {
   padding: 0;
   user-select: none;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif; /* or use any bold, condensed font available */
+  font-family: "Poppins", sans-serif;
+  /* or use any bold, condensed font available */
   min-height: 100%;
   background-color: var(--app-light-color);
-  color: var(--app-primary-color); /* setting text to primary */
+  color: var(--app-primary-color);
+  /* setting text to primary */
 }
 
 .app-white-text-color {
@@ -55,14 +57,14 @@ body {
 
 /* General styling for the navbar links when scrolled */
 .nav-menu-link-white li a {
-  color: var(--app-white-color) !important; /* Set all links to white */
+  color: var(--app-white-color) !important;
+  /* Set all links to white */
 }
 
 /* Style the active nav link specifically */
 .nav-menu-link-white li a.active-nav {
-  color: var(
-    --app-secondary-color
-  ) !important; /* Set the active link to the secondary color */
+  color: var(--app-secondary-color) !important;
+  /* Set the active link to the secondary color */
 }
 
 /* Optional: Smooth transition for color change */
@@ -83,21 +85,26 @@ footer h5 {
 .phone-icon {
   display: inline-block;
   animation: bottomShake 2s infinite;
-  transform-origin: top center; /* Fixes the top, moves only the bottom */
+  transform-origin: top center;
+  /* Fixes the top, moves only the bottom */
 }
 
 /* Keyframes for bottom shake effect */
 @keyframes bottomShake {
+
   0%,
   100% {
     transform: scale(1) rotate(0deg);
   }
+
   25% {
     transform: scale(1.3) rotate(-5deg);
   }
+
   50% {
     transform: scale(1.3) rotate(5deg);
   }
+
   75% {
     transform: scale(1.3) rotate(-5deg);
   }
@@ -196,13 +203,20 @@ footer h5 {
 
 /* CSS */
 .headline {
-  font-size: 4em; /* Large font size */
-  color: #f5a623; /* Attractive orange color */
-  font-weight: bold; /* Bold text */
-  text-align: center; /* Centered text */
-  font-family: "Arial", sans-serif; /* Modern, clean font */
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
-  margin-top: 20px; /* Adjust margin as needed */
+  font-size: 4em;
+  /* Large font size */
+  color: #f5a623;
+  /* Attractive orange color */
+  font-weight: bold;
+  /* Bold text */
+  text-align: center;
+  /* Centered text */
+  font-family: "Arial", sans-serif;
+  /* Modern, clean font */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  /* Slight shadow for depth */
+  margin-top: 20px;
+  /* Adjust margin as needed */
 }
 
 /* CSS Styling for Row Layout */
@@ -228,26 +242,33 @@ footer h5 {
   position: fixed;
   height: 100px;
   width: 100px;
-  bottom: 0px; /* Distance from the bottom */
-  right: 5px; /* Distance from the right */
-  z-index: 1000; /* Ensures the icon is on top of other elements */
+  bottom: 0px;
+  /* Distance from the bottom */
+  right: 5px;
+  /* Distance from the right */
+  z-index: 1000;
+  /* Ensures the icon is on top of other elements */
 }
 
 .reviews-container {
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  flex-wrap: wrap;
+  /* Allows wrapping on smaller screens */
 }
 
 .review {
-  flex: 1 1 300px; /* Sets a minimum width and allows flexibility */
-  max-width: 300px; /* Optional: Limits max width of each review */
+  flex: 1 1 300px;
+  /* Sets a minimum width and allows flexibility */
+  max-width: 300px;
+  /* Optional: Limits max width of each review */
   padding: 20px;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: left; /* Aligns text to the left */
+  text-align: left;
+  /* Aligns text to the left */
   min-height: 310px;
 }
 
@@ -257,25 +278,33 @@ footer h5 {
 
 .user-info {
   display: flex;
-  align-items: center; /* Aligns icon and name vertically */
-  margin-bottom: 10px; /* Space below user info */
+  align-items: center;
+  /* Aligns icon and name vertically */
+  margin-bottom: 10px;
+  /* Space below user info */
 }
 
 .user-icon {
-  width: 40px; /* Set the width of user icons */
-  height: 40px; /* Set the height of user icons */
-  border-radius: 50%; /* Makes the icon circular */
-  margin-right: 10px; /* Space between icon and name */
+  width: 40px;
+  /* Set the width of user icons */
+  height: 40px;
+  /* Set the height of user icons */
+  border-radius: 50%;
+  /* Makes the icon circular */
+  margin-right: 10px;
+  /* Space between icon and name */
 }
 
 .user-name {
   font-weight: bold;
-  color: #333; /* Customize the color as needed */
+  color: #333;
+  /* Customize the color as needed */
 }
 
 .rating {
   font-size: 1.5em;
-  color: #ffcc00; /* Gold color for stars */
+  color: #ffcc00;
+  /* Gold color for stars */
 }
 
 .review-text {
@@ -336,12 +365,15 @@ footer h5 {
 
 /* Styling the secondary text "Tours and Travels" */
 .custom-navbar-subtext {
-  font-family: "Poppins", sans-serif; /* same font family */
+  font-family: "Poppins", sans-serif;
+  /* same font family */
   font-weight: 400;
   font-size: 1rem;
-  color: #555; /* dark gray, or you can use the same gradient as above */
+  color: #555;
+  /* dark gray, or you can use the same gradient as above */
   letter-spacing: 0.5px;
-  display: block; /* Forces text below main text */
+  display: block;
+  /* Forces text below main text */
   margin-top: -5px;
 }
 
@@ -352,13 +384,15 @@ footer h5 {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #f8f9fa; /* Change this to your background color or image */
+  background: #f8f9fa;
+  /* Change this to your background color or image */
   text-align: center;
 
   background-image: url("assets/images/main.jpg");
   background-size: cover;
   background-position: center;
-  overflow: hidden; /* Hide the overflow for clean edges */
+  overflow: hidden;
+  /* Hide the overflow for clean edges */
   position: relative;
 }
 
@@ -383,6 +417,7 @@ footer h5 {
   from {
     width: 0ch;
   }
+
   to {
     width: 27ch;
   }
@@ -390,10 +425,12 @@ footer h5 {
 
 /* Blinking caret animation */
 @keyframes blink-caret {
+
   0%,
   50% {
     border-color: white;
   }
+
   100% {
     border-color: transparent;
   }
@@ -401,7 +438,8 @@ footer h5 {
 
 /* Yellow color for "TRAVEL" */
 .yellow-text {
-  color: #ffc300; /* Bright yellow color */
+  color: #ffc300;
+  /* Bright yellow color */
 }
 
 /* Button styling */
@@ -418,7 +456,8 @@ footer h5 {
   opacity: 0;
   transform: translateY(20px);
   animation: slideUp 1.5s forwards;
-  animation-delay: 4.5s; /* Start after the typing animation */
+  animation-delay: 4.5s;
+  /* Start after the typing animation */
 }
 
 .explore-button:hover {
@@ -504,6 +543,7 @@ footer h5 {
   .footer h5 {
     margin-bottom: 10px;
   }
+
   .custom-navbar-brand-footer {
     font-size: 1.2rem;
   }
@@ -549,6 +589,7 @@ footer h5 {
   margin: 20px auto;
   overflow-x: auto;
 }
+
 .table th,
 .table td {
   text-align: center;
@@ -558,7 +599,8 @@ footer h5 {
 /* faq */
 /* Card header styles */
 .card-header {
-  background-color: #1a2d6d; /* Primary color */
+  background-color: #1a2d6d;
+  /* Primary color */
   color: #ffffff;
   cursor: pointer;
   font-weight: bold;
@@ -584,18 +626,22 @@ footer h5 {
 /* Rotate the icon and change color on expand */
 .card-header.active i {
   transform: rotate(180deg);
-  color: #f08261; /* Secondary color */
+  color: #f08261;
+  /* Secondary color */
 }
 
 /* Change question color on expand */
 .card-header.active {
-  color: #f08261; /* Secondary color */
+  color: #f08261;
+  /* Secondary color */
 }
 
 /* Card body styling */
 .card-body {
-  background-color: #ffffff; /* White background for content */
-  color: #1a2d6d; /* Primary color text */
+  background-color: #ffffff;
+  /* White background for content */
+  color: #1a2d6d;
+  /* Primary color text */
   padding: 15px;
   border-top: 1px solid #e0e0e0;
 }
@@ -617,9 +663,9 @@ footer h5 {
 }
 
 .card {
-	overflow: hidden;
-	transition: transform 0.3s ease-in-out;
-	border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 #bookNow .card:hover {
@@ -634,19 +680,23 @@ footer h5 {
   transform: scale(1.05);
   /* box-shadow: 0 4px 20px rgba(255, 102, 0, 0.3); */
 }
+
 .card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
 .card:hover img {
   transform: scale(1.1);
 }
+
 .card-body h5 {
   font-size: 1.1rem;
   color: #333;
 }
+
 .card-body p {
   font-size: 0.95rem;
   color: #555;
@@ -654,12 +704,14 @@ footer h5 {
 
 .tooltip-icon {
   cursor: pointer;
-  color: #f08261; /* Adjust color as needed */
+  color: #f08261;
+  /* Adjust color as needed */
 }
 
 .info-icon i {
   margin-left: 5px;
-  color: #f08261; /* Secondary color for the icon */
+  color: #f08261;
+  /* Secondary color for the icon */
   font-size: 0.9rem;
   cursor: pointer;
   border-radius: 50%;
@@ -692,6 +744,7 @@ footer h5 {
   background-color: #f9f9f9;
   font-family: Arial, sans-serif;
 }
+
 /* .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -706,9 +759,11 @@ footer h5 {
   gap: 20px;
   margin-bottom: 30px;
 }
+
 .image-container {
   flex: 1 1 40%;
 }
+
 .text-container {
   flex: 1 1 50%;
   text-align: left;
@@ -716,12 +771,14 @@ footer h5 {
   line-height: 1.6;
   color: #555;
 }
+
 .innova-image {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .keyword-list ul {
   list-style: none;
   padding: 0;
@@ -730,6 +787,7 @@ footer h5 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
 }
+
 .keyword-list li {
   background: #fff;
   padding: 10px 15px;
@@ -738,6 +796,7 @@ footer h5 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .keyword-list li:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -746,15 +805,22 @@ footer h5 {
 /* Media query for small screens */
 @media (max-width: 768px) {
   .image-text-wrapper {
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
+    /* Stack items vertically */
   }
+
   .image-container {
-    flex: 1 1 100%; /* Take full width */
-    margin-bottom: 20px; /* Add spacing below the image */
+    flex: 1 1 100%;
+    /* Take full width */
+    margin-bottom: 20px;
+    /* Add spacing below the image */
   }
+
   .text-container {
-    flex: 1 1 100%; /* Take full width */
-    text-align: center; /* Optional: center-align text */
+    flex: 1 1 100%;
+    /* Take full width */
+    text-align: center;
+    /* Optional: center-align text */
   }
 }
 
@@ -768,21 +834,25 @@ footer h5 {
   transform: translateY(100px);
   transition: opacity 2s cubic-bezier(0.25, 1, 0.5, 1), transform 2s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
 /* Slide-in animation for #tariffHeader cards triggered by JS animation*/
 .tariffHeader.slide-in {
-  opacity: 1 !important;;
+  opacity: 1 !important;
+  ;
   transform: translateY(0);
 }
+
 /* Initial state for #pricing cards for JS animation */
- #pricing .card {
+#pricing .card {
   opacity: 0;
   transform: translateX(160px);
-  box-shadow: 0 16px 48px 0 rgba(0,0,0,0.35);
+  box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.35);
 }
+
 /* Slide-in animation for #pricing cards triggered by JS animation*/
- .slide-in {
+.slide-in {
   opacity: 1 !important;
   transform: translateX(0) !important;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
   transition: opacity 2s cubic-bezier(0.25, 1, 0.5, 1), transform 2s cubic-bezier(0.25, 1, 0.5, 1);
-} 
+}
